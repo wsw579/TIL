@@ -1,3 +1,3 @@
 # TIL
 
-### Velog [DATA & AI Study](https://velog.io/@victoryone)
+### 🔗 Velog : [DATA & AI Study](https://velog.io/@victoryone)
