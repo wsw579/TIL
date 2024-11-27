@@ -19,7 +19,7 @@ jobs:
     - name: Push changes
       run: |
         git config --global user.name 'wsw579'
-        git config --global user.email 'rmfltmskatls@gmail.com'
+        git config --global user.email 'rmfltmskatls@naver.com'
         git push https://${{ secrets.GH_PAT_WSW }}@github.com/wsw579/TIL.git 
         
         # 깃허브 아이디
