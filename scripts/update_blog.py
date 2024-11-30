@@ -3,7 +3,7 @@ import git
 import os
 
 # 벨로그 RSS 피드 URL
-rss_url = 'https://v2.velog.io/rss/[victory.one]'
+rss_url = 'https://api.velog.io/rss/[victory.one]'
 
 # 깃허브 레포지토리 경로
 repo_path = '.'
