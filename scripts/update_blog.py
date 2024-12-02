@@ -3,13 +3,13 @@ import git
 import os
 
 # 벨로그 RSS 피드 URL
-rss_url = 'https://api.velog.io/rss/[victory.one]'
+rss_url = 'https://api.velog.io/rss/[victory.one.log]'
 
 # 깃허브 레포지토리 경로
 repo_path = '.'
 
 # 'velog-posts' 폴더 경로
-posts_dir = os.path.join(repo_path, 'TIL')
+posts_dir = os.path.join(repo_path, 'velog')
 
 # 'velog-posts' 폴더가 없다면 생성
 if not os.path.exists(posts_dir):
