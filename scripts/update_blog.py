@@ -12,7 +12,7 @@ repo_path = '.'
 # 'velog-posts' 폴더 경로
 posts_dir = os.path.join(repo_path, 'velog')
 
-# 'velog-posts' 폴더가 없다면 생성
+# 'velog' 폴더가 없다면 생성
 if not os.path.exists(posts_dir):
     os.makedirs(posts_dir)
 
@@ -49,6 +49,7 @@ for entry in feed.entries:
     else:
         content = entry.get('summary', 'No description available')  # summary가 없으면 기본 텍스트
 
+    
     # 글 내용을 파일에 작성
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(content)
